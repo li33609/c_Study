@@ -178,16 +178,65 @@ int main07()
 
 
 // 读取字符数组
-int main()
+int main08()
 {
 	char num[128] = "";
+	int i = 0;
 	
 	// scanf遇到空格结束
 	// scanf("%s", num);
+	
 	// gets_s 遇到回车结束，空格不结束，但会造成程序污染
 	// gets_s(num, 128); // ()里的参数是读取字符串的地址
+	
+	// fgets会把回车键读入
 	fgets(num, sizeof(num), stdin); // 能够自动拦截,stdin为键盘输入
+
+	// fgets去掉回车
+	/* while (num[i] != '\0') // 求有效字符的个数
+	{
+		i++;
+	}
+	num[i - 1] = '\0'; */
+
+	i = strlen(num); // 求字符串长度
+	num[i - 1] = '\0';
+
 	printf("num = %s\n", num);
+
+	system("pause");
+	return 0;
+}
+
+
+// 字符数组输出
+int main09()
+{
+	char buf[1024] = "hello world";
+	// printf("buf = %s \n", buf);
+	// puts(buf); // 自动加换行b
+	fputs(buf, stdout);
+
+	system("pause");
+	return 0;
+}
+
+
+// 字符串追加
+int main()
+{
+	char str_1[128] = "hello world";
+	char str_2[128] = "hello world";
+	int i, j = 0;
+
+	i = strlen(str_1);
+	while (str_2[j] != 0)
+	{
+		str_1[i] = str_2[j];
+		i++;
+		j++;
+	}
+	printf("str_1 = %s\n",str_1);
 
 	system("pause");
 	return 0;

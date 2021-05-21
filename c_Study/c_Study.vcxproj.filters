@@ -51,5 +51,8 @@
     <ClCompile Include="12_数组名.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="13_猜数字.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
