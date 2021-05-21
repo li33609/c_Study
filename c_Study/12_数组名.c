@@ -155,10 +155,39 @@ int main06()
 }
 
 
-// 多维数组
+// 字符数组
+int main07()
+{
+	// 字符数组
+	// 有\0的数组操作起来方便
+	// char a[5] = {'a', 'b', 'c', 'd', '\0'};
+	char a[123] = "abcd\0def\0";
+	int line = sizeof(a) / sizeof(a[0]);
+
+	for (int i = 0; i < line; i++)
+	{
+		printf("%c", a[i]);
+	}
+	printf("\n");
+	printf("%s\n", a);
+	printf("%d\n", a);
+
+	system("pause");
+	return 0;
+}
+
+
+// 读取字符数组
 int main()
 {
+	char num[128] = "";
 	
+	// scanf遇到空格结束
+	// scanf("%s", num);
+	// gets_s 遇到回车结束，空格不结束，但会造成程序污染
+	// gets_s(num, 128); // ()里的参数是读取字符串的地址
+	fgets(num, sizeof(num), stdin); // 能够自动拦截,stdin为键盘输入
+	printf("num = %s\n", num);
 
 	system("pause");
 	return 0;
