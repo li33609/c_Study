@@ -26,11 +26,28 @@ void fun2(int a, int b)
 	return;
 }
 
+// 有参有返回值函数 
+int fun3(int a, int b)
+{
+	return a + b;
+}
+
 
 int main()
 {
+	int x = 3;
+	int y = 5;
+	int sum = 0;
+
 	printf("hello main\n");
-	fun2(3, 4);
+	// fun2(3, 4);
+	// fun2(x, y);
+	// 实参可以为变量，可以为表达式，只要类型匹配
+	// fun2(x + y, y * x);
+	// 可以接返回值，也可以不接，变量类型需要一致
+	// 参数传递只能是单向传递，形参-》实参
+	sum = fun3(x, y);
+	printf("sum = %d\n", sum);
 
 	system("pause");
 	return 0;
