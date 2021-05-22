@@ -223,7 +223,7 @@ int main09()
 
 
 // 字符串追加
-int main()
+int main10()
 {
 	char str_1[128] = "hello world";
 	char str_2[128] = "hello world";
@@ -240,4 +240,24 @@ int main()
 
 	system("pause");
 	return 0;
+}
+
+
+int main()
+{
+	int a = 1234;
+	int num;
+	int guss_num[4];
+
+	printf("请输入一个四位数：\n");
+	scanf("%d", &num);
+	guss_num[0] = num % 10;
+	guss_num[1] = (num / 10) % 10;
+	guss_num[2] = (num / 100) % 10;
+	guss_num[3] = (num / 1000) % 10;
+	for (int i = 0; i < 4; i++)
+	{
+		printf("guss_num = %d \n", guss_num[i]);
+	}
+	
 }
