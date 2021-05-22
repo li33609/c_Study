@@ -32,6 +32,19 @@ int fun3(int a, int b)
 	return a + b;
 }
 
+// 交换值
+void swap(int a, int b)
+{
+	int c = 0;
+	c = a;
+	a = b;
+	b = c;
+
+	printf("a = %d b = %d\n", a, b);
+
+	return;
+}
+
 
 int main()
 {
@@ -40,14 +53,20 @@ int main()
 	int sum = 0;
 
 	printf("hello main\n");
+
 	// fun2(3, 4);
 	// fun2(x, y);
 	// 实参可以为变量，可以为表达式，只要类型匹配
 	// fun2(x + y, y * x);
+	
 	// 可以接返回值，也可以不接，变量类型需要一致
 	// 参数传递只能是单向传递，形参-》实参
-	sum = fun3(x, y);
-	printf("sum = %d\n", sum);
+	// sum = fun3(x, y);
+	// printf("sum = %d\n", fun3(x, y));
+	
+	// 实参传形参，形参的值改变，实参值不变
+	swap(x, y);
+	printf("x = %d y = %d\n", x, y);
 
 	system("pause");
 	return 0;
