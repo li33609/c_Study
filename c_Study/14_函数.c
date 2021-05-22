@@ -3,6 +3,9 @@
 #include<string.h>
 
 
+// 预先声明函数体
+extern void swap(int a, int b);
+
 // 无参无返回值函数 
 // 函数需要有返回值
 void fun1()
