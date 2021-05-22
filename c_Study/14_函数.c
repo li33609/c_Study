@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include "01_hello.h"
 
 
 // 预先声明函数体
@@ -54,6 +55,7 @@ int main()
 	int x = 3;
 	int y = 5;
 	int sum = 0;
+	int my_max = 0;
 
 	printf("hello main\n");
 
@@ -70,7 +72,10 @@ int main()
 	// 实参传形参，形参的值改变，实参值不变
 	swap(x, y);
 	printf("x = %d y = %d\n", x, y);
+	my_max = My_max(1, 2);
+	printf("max = %d\n", my_max);
 
+	// exit和return exit不管在哪都结束整个函数
 	system("pause");
 	return 0;
 }

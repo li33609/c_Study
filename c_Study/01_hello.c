@@ -29,7 +29,7 @@ int main01()
 	return 0;
 }
 
-int main()
+int main02()
 {
 	int a = 4;
 	int b = 3;
@@ -42,5 +42,10 @@ int main()
 	system("pause");
 
 	return 0;
+}
+
+int My_max(int a, int b)
+{
+	return a > b ? a : b;
 }
 
