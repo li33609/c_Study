@@ -3,7 +3,9 @@
 #include<string.h>
 
 
-// µ÷»»×ÖÄ¸´óĞ¡
+
+
+
 int main()
 {
 	
