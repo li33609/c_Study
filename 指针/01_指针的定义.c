@@ -16,7 +16,7 @@
 //剩下什么类型就保存什么类型数据的地址
 //p = &a;
 
-int main()
+int main01()
 {
 	int a = 0;
 	// 定义指针三步骤
@@ -29,6 +29,23 @@ int main()
 	p = &b;
 	*p = 22;
 	printf("b = %d, *p = %d\n", b, *p);
+
+	system("pause");
+	return 0;
+}
+
+
+int main()
+{
+	int *p1;
+	char *p2;
+	short *p3;
+	short **p4;
+
+	printf("%d\n", sizeof(p1));
+	printf("%d\n", sizeof(p2));
+	printf("%d\n", sizeof(p3));
+	printf("%d\n", sizeof(p4));
 
 	system("pause");
 	return 0;
