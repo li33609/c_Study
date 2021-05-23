@@ -34,8 +34,7 @@ int main01()
 	return 0;
 }
 
-
-int main()
+int main02()
 {
 	int *p1;
 	char *p2;
@@ -46,6 +45,26 @@ int main()
 	printf("%d\n", sizeof(p2));
 	printf("%d\n", sizeof(p3));
 	printf("%d\n", sizeof(p4));
+
+	system("pause");
+	return 0;
+}
+
+
+int main()
+{
+	int num = 0x01020304;
+	int *p1 = &num;
+	char *p2 = (char *)&num;
+	short *p3 = (short*)& num;
+
+	printf("%u\n", p1);
+	printf("%u\n", p2);
+	printf("%u\n", p3);
+
+	printf("%u\n", p1+1);
+	printf("%u\n", p2+1);
+	printf("%u\n", p3+1);
 
 	system("pause");
 	return 0;
