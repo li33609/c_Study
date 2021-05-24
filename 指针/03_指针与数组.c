@@ -70,13 +70,39 @@ int main03()
 }
 
 
+// 指针数组
+int main04()
+{
+	int a = 20;
+	int b = 30;
+	int c = 40;
+	int* num[3] = {&a, &b, &c};
+	int line = sizeof(num) / sizeof(num[0]);
+
+	for (int i = 0; i < line; i++)
+	{
+		printf("%d ", *num[i]);
+	}
+	
+	system("pause");
+	return 0;
+}
+
+
+// 定义一个指针来保存数组num首元素地址
 int main()
 {
 	int a = 20;
 	int b = 30;
 	int c = 40;
+	int* num[3] = { &a, &b, &c };
+	int line = sizeof(num) / sizeof(num[0]);
+	int** k = num;
 
-
+	for (int i = 0; i < line; i++)
+	{
+		printf("%d ",**(k+i));
+	}
 
 	system("pause");
 	return 0;
