@@ -48,8 +48,7 @@ int main02()
 }
 
 
-
-int main()
+int main03()
 {
 	// []不是数组专属 
 	// [] == *() 
@@ -65,6 +64,18 @@ int main()
 	{
 		printf("%d ", p[i]); // p[i] == *(p+i)
 	}
+
+	system("pause");
+	return 0;
+}
+
+
+int main()
+{
+	int a = 20;
+	int b = 30;
+	int c = 40;
+
 
 
 	system("pause");
