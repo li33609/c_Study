@@ -16,10 +16,57 @@
 //剩下什么类型就保存什么类型数据的地址
 //p = &a;
 
+// 在使用时,对一个表达式取*,就会对表达式减一级*,如果对表达式取&,就会加一级*
 
-// 
-int main()
+int main01()
 {
 	int a[10] = {1,2,3,4,5,6,7,8,9,10};
+	int *p = a; // 指针p保存首元素地址
 
+	for (int i = 0; i < sizeof(a) / sizeof(a[0]) ; i++)
+	{
+		printf("%d\n", *(p+i));
+	}
+
+	system("pause");
+	return 0;
+}
+
+
+int main02()
+{
+	int a[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	int* p = a; 
+	int *q = (int *)(&a+1) - 1;
+	// int* q = &a[9];
+
+	// 两指针相加没意义
+	printf("%d\n", q - p);
+
+	system("pause");
+	return 0;
+}
+
+
+
+int main()
+{
+	// []不是数组专属 
+	// [] == *() 
+	int b[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	int a = 0;
+	int* p = b;
+
+	// p[0] == *(p+0)
+	// p[0] = 100;
+	// printf("%d\n",a);
+
+	for (int i = 0; i < sizeof(b) / sizeof(b[0]); i++)
+	{
+		printf("%d ", p[i]); // p[i] == *(p+i)
+	}
+
+
+	system("pause");
+	return 0;
 }
