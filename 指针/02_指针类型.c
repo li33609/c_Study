@@ -73,16 +73,42 @@ int main03()
 
 
 // const修饰的指针
-int main()
+int main04()
 {
-	const int a = 10; // const修饰值不可以改变
-	int *p = &a;
-
-	*p = 100;
+	// const int a = 10; // const修饰值的内存不可以改变，地址可以改变
+	int a = 10;
+	int b = 20;
+	
+	// 这里const修饰的是*
+	// const int *p = &a; // 不能通过 *p，修改p所指的空间内容
+	// *p = 100; // erro
+	 
+	// const修饰变量p， p保存的地址不可以修改
+	// int * const p = &a;
+	// p = &b; // erro
+	
+	const int* const p = &a; // p 本身的指向不能改变，不能通过*p修改所指向的内容
 
 	printf("*p = %d\n", *p);
 	printf("a = %d\n", a);
 
+	system("pause");
+	return 0;
+}
+
+
+// 多级指针
+int main()
+{
+	int a = 10;
+	int *p = &a;
+	// *q  int *p  int *(*q)
+	int **q = &p;
+
+	// 如果*和&相遇，相抵消
+	// **q == *(*q) == *p == *（&a） == a   
+	printf("%d\n", **q);
+	
 	system("pause");
 	return 0;
 }
