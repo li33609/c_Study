@@ -27,5 +27,8 @@
     <ClCompile Include="04_指针与函数.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="05_作业.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
