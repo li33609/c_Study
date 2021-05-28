@@ -111,13 +111,51 @@ int main04()
 
 
 // 在数组中查找字符串所在位置，成功则返回该值的地址，失败返回NULL
-int main()
+int main05()
 {
 	char str1[] = "sadasddwdsfdcdsf";
 	char str2[] =  "ad";
 	char* p = strstr(str1, str2);
 
 	printf("%s\n", p);
+
+	system("pause");
+	return 0;
+}
+
+
+int main()
+{
+	char  str1[] = "1222254565#guoguo#123456";
+	char* p[10] = { NULL };// 初始化数组元素全为NULL
+	int i = 0;
+	/*
+	char* p1 = strtok(str1, "#"); // 在str1中#切割，返回前面的字符串
+	printf("%s\n", p1);
+
+	char* p2 = strtok(NULL, "#"); // 在str1中#切割，返回前面的字符串
+	printf("%s\n", p2);
+
+	char* p3 = strtok(NULL, "#"); // 在str1中#切割，返回前面的字符串
+	printf("%s\n", p3);
+	*/
+	do
+	{
+		if ( i == 0 )
+		{
+			p[i] = strtok(str1, "#");
+		}
+		else
+		{
+			p[i] = strtok(NULL, "#");
+		}
+	} while (p[i++] != NULL);  // p[i] != NULL i=i+1 如果strtok==NULL切割完毕
+
+	i = 0;
+	while (p[i] != 0)
+	{
+		printf("%s\n", p[i++]);
+	}
 
 	system("pause");
 	return 0;
