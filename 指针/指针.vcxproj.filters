@@ -30,5 +30,8 @@
     <ClCompile Include="05_作业.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="06_指针与字符数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
