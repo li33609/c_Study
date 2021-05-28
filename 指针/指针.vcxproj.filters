@@ -33,5 +33,8 @@
     <ClCompile Include="06_指针与字符数组.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="07_字符串库函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

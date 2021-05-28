@@ -83,7 +83,7 @@ int main03()
 
 
 // ×Ö·ûÖ¸ÕëÊý×é
-int main()
+int main04()
 {
 	char* p1 = "hello";
 	char* p2 = "world";
@@ -107,3 +107,17 @@ int main()
 	return 0;
 }
 
+
+// .*.exe hello world
+// char *argc[] = {".*.exe", "hello", "world"}
+int main(int argc,char *argv[])
+{
+
+
+	printf("%d\n", argc);
+	printf("%s\n", argv[0]);
+	printf("%s\n", argv[1]);
+
+	system("pause");
+	return 0;
+}
