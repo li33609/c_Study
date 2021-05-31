@@ -163,16 +163,98 @@ int main06()
 
 
 // atoi 将字符转成整数
-int main()
+int main07()
 {
 	// 0-9的字符和+-号，如果不是结束
 	char num1[] = "1234";
 	char num2[] = "121.34";
 	int sum1 = atoi(num1);
-	float sum2 = atoi(num2);
+	float sum2 = atof(num2);
 
 	printf("%d\n", sum1);
 	printf("%f\n", sum2);
+
+	system("pause");
+	return 0;
+}
+
+
+int str_num(char* str, char* dst)
+{
+	int n = 0;
+	char* p = str;
+
+	do
+	{
+		p = strstr(p, dst);
+		if (p != NULL)
+		{
+			n++;
+			p = p + strlen(dst);
+		}
+
+	} while (p != NULL);
+
+	return n;
+}
+
+// 返回字符串出现次数
+int main08()
+{
+	char str[] = "asdabababcijolnojlknolabc";
+	char dst[] = "ab";
+	int n = str_num(str, dst);
+
+	printf("%d\n", n);
+
+	system("pause");
+	return 0;
+}
+
+
+// 
+int main09()
+{
+	char src[] = "        hello world         ";
+	char str[128] = "";
+
+	char* start = src;
+	char* end =  &src[strlen(src) - 1];
+
+	while (*start == ' ' && *start != 0)
+	{
+		start++;
+	}
+	while (*end == ' ' && end == start)
+	{
+		end--;
+	}
+	strcpy(str, start, end-start+1);
+	printf("src = %s\n", src);
+	printf("str = %s\n", str);
+
+	system("pause");
+	return 0;
+}
+
+
+// 交换顺序
+int main()
+{
+	char src[] = "helloworld";
+
+	char* start = src;
+	char* end = &src[strlen(src) - 1];
+
+	while (start < end)
+	{
+		char ch = *end;
+		*end = *start;
+		*start = ch;
+		end--;
+		start++;
+	}
+	printf("%s\n", src);
 
 	system("pause");
 	return 0;
