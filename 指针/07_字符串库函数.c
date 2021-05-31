@@ -124,7 +124,7 @@ int main05()
 }
 
 
-int main()
+int main06()
 {
 	char  str1[] = "1222254565#guoguo#123456";
 	char* p[10] = { NULL };// 初始化数组元素全为NULL
@@ -156,6 +156,23 @@ int main()
 	{
 		printf("%s\n", p[i++]);
 	}
+
+	system("pause");
+	return 0;
+}
+
+
+// atoi 将字符转成整数
+int main()
+{
+	// 0-9的字符和+-号，如果不是结束
+	char num1[] = "1234";
+	char num2[] = "121.34";
+	int sum1 = atoi(num1);
+	float sum2 = atoi(num2);
+
+	printf("%d\n", sum1);
+	printf("%f\n", sum2);
 
 	system("pause");
 	return 0;
