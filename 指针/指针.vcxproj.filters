@@ -39,5 +39,8 @@
     <ClCompile Include="08_作业.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="09_内存管理.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

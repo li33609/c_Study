@@ -19,38 +19,72 @@
 //p = &a;
 
 
-void my_atoi(char *p)
+int my_atoi(char *p)
 {
 	char* start = p;
-	char* end = &p[strlen(p) - 1];
-	int num[128] = { 0 };
-	int i = 0;
+	int num = 0;
+	int flag = 0; // flag==0 整数 ==1负数
 
+	if (*start == '-')
+	{
+		flag = 1;
+		start += 1;
+	}
+	else if (*start == '+')
+	{
+		flag = 1;
+		start += 1;
+	}
 	while (*start != '\0')
 	{
-		num[i] =  *start - '0';
-
-		i++;
+		num = num * 10 + (*start - '0');
 		start++;
 	}
-	printf("%d\n", strlen(p));
-	for (i = 0; i < strlen(p); i++)
+	if (flag == 0)
 	{
-		printf("%d", num[i]);
+		return num;
 	}
-	printf("\n");
+	else
+	{
+		return -num;
+	}
+
+}
+
+
+int main01()
+{
+	char num[] = "123444444";
+	
+	printf("%d\n", my_atoi(num));
+
+	system("pause");
+	return 0;
 }
 
 
 int main()
 {
-	char num[] = "123444444";
+	char str[128] = "asdasd,asfcdsv,asdasd,adsd,,asd";
+	char* q = str;
 	
-	printf("%d\n", strlen(num));
-
-	my_atoi(num);
-	int num1 = atoi(num);
-	printf("%d\n", num1);
+	while (*q != '\0')
+	{
+		if (*q == ',')
+		{
+			char* p = q;
+			while (*p != '\0')
+			{
+				*p = *(p + 1);
+				p++;
+			}
+		}
+		else
+		{
+			q++;
+		}
+	}
+	printf("%s\n", str);
 
 	system("pause");
 	return 0;
