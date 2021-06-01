@@ -7,7 +7,14 @@
 
 int main()
 {
-	
+	int a = 0;
+
+	if (1)
+	{
+		int b = 1;
+		printf("%d\n", a);
+	}
+	// printf("%d\n", a); erro b在大括号内使用
 
 	system("pause");
 	return 0;

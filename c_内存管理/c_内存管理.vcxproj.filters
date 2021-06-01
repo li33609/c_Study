@@ -15,28 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_指针的定义.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="02_指针类型.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="03_指针与数组.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="04_指针与函数.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="05_作业.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="06_指针与字符数组.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="07_字符串库函数.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="08_作业.c">
+    <ClCompile Include="01_局部变量.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
