@@ -18,5 +18,17 @@
     <ClCompile Include="01_局部变量.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="02_全局变量.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="03_内存处理函数.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="04_malloc向堆区申请空间.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="05_作业.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
