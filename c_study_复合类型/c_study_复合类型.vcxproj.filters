@@ -16,7 +16,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="01_基础.c">
-      <Filter>资源文件</Filter>
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="02_结构体数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="03_结构体指针.c">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
