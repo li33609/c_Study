@@ -12,9 +12,16 @@ struct stu
 	char name[128];
 } ;
 
-int main()
+int main01()
 {
-	struct stu* p; // p是野指针
+	/*
+	struct stu a;
+
+	// struct stu* p; // p是野指针,error
+	struct stu* p = &a;
+	*/
+
+	struct stu* p = malloc(sizeof(struct stu));
 	
 	p->id = 100;
 	p->age = 20;
