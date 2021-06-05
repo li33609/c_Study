@@ -30,5 +30,8 @@
     <ClCompile Include="05_共用体.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="06_枚举.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
