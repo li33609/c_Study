@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c_内存管理", "c_内存�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c_study_复合类型", "c_study_复合类型\c_study_复合类型.vcxproj", "{A2153659-681A-4396-B958-9A38F79DD58B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C_study_文件", "C_study_文件\C_study_文件.vcxproj", "{5BCBCD1B-F8BC-4F99-ABEB-C9495EF75568}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{A2153659-681A-4396-B958-9A38F79DD58B}.Release|x64.Build.0 = Release|x64
 		{A2153659-681A-4396-B958-9A38F79DD58B}.Release|x86.ActiveCfg = Release|Win32
 		{A2153659-681A-4396-B958-9A38F79DD58B}.Release|x86.Build.0 = Release|Win32
+		{5BCBCD1B-F8BC-4F99-ABEB-C9495EF75568}.Debug|x64.ActiveCfg = Debug|x64
+		{5BCBCD1B-F8BC-4F99-ABEB-C9495EF75568}.Debug|x64.Build.0 = Debug|x64
+		{5BCBCD1B-F8BC-4F99-ABEB-C9495EF75568}.Debug|x86.ActiveCfg = Debug|Win32
+		{5BCBCD1B-F8BC-4F99-ABEB-C9495EF75568}.Debug|x86.Build.0 = Debug|Win32
+		{5BCBCD1B-F8BC-4F99-ABEB-C9495EF75568}.Release|x64.ActiveCfg = Release|x64
+		{5BCBCD1B-F8BC-4F99-ABEB-C9495EF75568}.Release|x64.Build.0 = Release|x64
+		{5BCBCD1B-F8BC-4F99-ABEB-C9495EF75568}.Release|x86.ActiveCfg = Release|Win32
+		{5BCBCD1B-F8BC-4F99-ABEB-C9495EF75568}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
