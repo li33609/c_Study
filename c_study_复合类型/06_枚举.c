@@ -6,14 +6,19 @@
 
 
 // 枚举
+enum ab {SUN, RAIN, SNOW}; // 0 1 2
+
+// 
+enum my_bool { false, true };
+typedef enum my_bool bool; // 取别名
 
 int main()
 {
-	int a = 0;
+	bool a;
 
-	scanf("%d", &a);
+	a = false;
+	printf("%d\n", a);
 	
-
 	system("pause");
 	return 0;
 }
