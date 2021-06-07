@@ -18,5 +18,16 @@
     <ClCompile Include="01_概念.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="02_写文件.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="03_文件拷贝.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="a.txt">
+      <Filter>源文件</Filter>
+    </Text>
   </ItemGroup>
 </Project>
