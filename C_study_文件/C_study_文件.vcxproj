@@ -145,7 +145,13 @@
     <ClCompile Include="02_写文件.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="03_文件拷贝.c" />
+    <ClCompile Include="03_文件拷贝.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="04_输出源文件.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="05_四则运算.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="a.txt" />
