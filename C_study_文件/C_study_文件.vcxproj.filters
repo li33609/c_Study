@@ -30,6 +30,9 @@
     <ClCompile Include="05_四则运算.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="06_源码.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="a.txt">
