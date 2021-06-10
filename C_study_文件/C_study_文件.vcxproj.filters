@@ -45,6 +45,9 @@
     <ClCompile Include="10_字典2.0.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="11_源码.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="a.txt">
