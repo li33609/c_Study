@@ -33,9 +33,24 @@
     <ClCompile Include="06_源码.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="07_组包拆包.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="08_处理大文件.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="09_字典.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="10_字典2.0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="a.txt">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="dict.txt">
       <Filter>源文件</Filter>
     </Text>
   </ItemGroup>
