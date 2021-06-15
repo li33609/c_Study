@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c_study_复合类型", "c_s
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C_study_文件", "C_study_文件\C_study_文件.vcxproj", "{5BCBCD1B-F8BC-4F99-ABEB-C9495EF75568}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c_贪吃蛇", "c_贪吃蛇\c_贪吃蛇.vcxproj", "{3C451CFA-B43E-4D96-9956-3B065380D2A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{5BCBCD1B-F8BC-4F99-ABEB-C9495EF75568}.Release|x64.Build.0 = Release|x64
 		{5BCBCD1B-F8BC-4F99-ABEB-C9495EF75568}.Release|x86.ActiveCfg = Release|Win32
 		{5BCBCD1B-F8BC-4F99-ABEB-C9495EF75568}.Release|x86.Build.0 = Release|Win32
+		{3C451CFA-B43E-4D96-9956-3B065380D2A1}.Debug|x64.ActiveCfg = Debug|x64
+		{3C451CFA-B43E-4D96-9956-3B065380D2A1}.Debug|x64.Build.0 = Debug|x64
+		{3C451CFA-B43E-4D96-9956-3B065380D2A1}.Debug|x86.ActiveCfg = Debug|Win32
+		{3C451CFA-B43E-4D96-9956-3B065380D2A1}.Debug|x86.Build.0 = Debug|Win32
+		{3C451CFA-B43E-4D96-9956-3B065380D2A1}.Release|x64.ActiveCfg = Release|x64
+		{3C451CFA-B43E-4D96-9956-3B065380D2A1}.Release|x64.Build.0 = Release|x64
+		{3C451CFA-B43E-4D96-9956-3B065380D2A1}.Release|x86.ActiveCfg = Release|Win32
+		{3C451CFA-B43E-4D96-9956-3B065380D2A1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

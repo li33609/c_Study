@@ -90,8 +90,8 @@ int statistics_num()
 {
 	int i = 0;
 	char buf[256] = "";
-	FILE* fp = my_OpenFile();
 	char* q = NULL;
+	FILE* fp = my_OpenFile();
 
 	while (1)
 	{
