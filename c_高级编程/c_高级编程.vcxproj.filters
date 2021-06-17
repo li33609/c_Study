@@ -21,5 +21,11 @@
     <ClCompile Include="02_void使用.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="03_sizeof使用.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="04_变量的修改方式.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
