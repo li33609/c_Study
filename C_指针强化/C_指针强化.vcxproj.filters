@@ -15,31 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_typedef学习.c">
+    <ClCompile Include="01_空指针和野指针.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="02_void使用.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="03_sizeof使用.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="04_变量的修改方式.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="05_内存四区.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="06_堆区.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="07_全局变量和静态变量.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="08_宏函数.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="09_栈的存储方式.c">
+    <ClCompile Include="02_指针间接赋值.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
