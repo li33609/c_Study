@@ -21,5 +21,14 @@
     <ClCompile Include="02_指针间接赋值.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="03_指针作为函数的输入输出特性.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="04_字符串数组指针.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="05_格式化字符串.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
