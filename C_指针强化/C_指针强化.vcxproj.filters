@@ -36,5 +36,25 @@
     <ClCompile Include="07_sscanf.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="08_字符串查找.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="09_const的使用场景.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="10_二级指针.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11_文件读写.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="12_位运算.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="a.txt">
+      <Filter>源文件</Filter>
+    </Text>
   </ItemGroup>
 </Project>
