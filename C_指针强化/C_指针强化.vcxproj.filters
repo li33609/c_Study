@@ -51,6 +51,15 @@
     <ClCompile Include="12_位运算.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="13_一维数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14_二维数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15_指针数组排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="a.txt">

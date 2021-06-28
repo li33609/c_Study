@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c_高级编程", "c_高级�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C_指针强化", "C_指针强化\C_指针强化.vcxproj", "{59715D2B-4152-4CDB-803C-46F151C04BE4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "c_结构体", "c_结构体\c_结构体.vcxproj", "{3C620AE7-4D7B-4A8D-9C85-BED906657FA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{59715D2B-4152-4CDB-803C-46F151C04BE4}.Release|x64.Build.0 = Release|x64
 		{59715D2B-4152-4CDB-803C-46F151C04BE4}.Release|x86.ActiveCfg = Release|Win32
 		{59715D2B-4152-4CDB-803C-46F151C04BE4}.Release|x86.Build.0 = Release|Win32
+		{3C620AE7-4D7B-4A8D-9C85-BED906657FA0}.Debug|x64.ActiveCfg = Debug|x64
+		{3C620AE7-4D7B-4A8D-9C85-BED906657FA0}.Debug|x64.Build.0 = Debug|x64
+		{3C620AE7-4D7B-4A8D-9C85-BED906657FA0}.Debug|x86.ActiveCfg = Debug|Win32
+		{3C620AE7-4D7B-4A8D-9C85-BED906657FA0}.Debug|x86.Build.0 = Debug|Win32
+		{3C620AE7-4D7B-4A8D-9C85-BED906657FA0}.Release|x64.ActiveCfg = Release|x64
+		{3C620AE7-4D7B-4A8D-9C85-BED906657FA0}.Release|x64.Build.0 = Release|x64
+		{3C620AE7-4D7B-4A8D-9C85-BED906657FA0}.Release|x86.ActiveCfg = Release|Win32
+		{3C620AE7-4D7B-4A8D-9C85-BED906657FA0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
