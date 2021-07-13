@@ -21,5 +21,17 @@
     <ClCompile Include="02_结构体赋值.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="03_结构体指针.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="04_结构体嵌套二级指针.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="05_结构体偏移.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="06_结构体内存对齐.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
