@@ -21,10 +21,24 @@
     <ClCompile Include="02_文件读写注意事项.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="03_文件练习.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="congfig.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="a.txt">
       <Filter>源文件</Filter>
     </Text>
+    <Text Include="config.txt">
+      <Filter>源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

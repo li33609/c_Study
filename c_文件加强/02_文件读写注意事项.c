@@ -7,7 +7,20 @@
 
 void test01()
 {
-	
+	FILE * file = fopen("./a.txt", "r");
+	if (file == NULL)
+	{
+		ferror("error!");
+	}
+
+	char ch;
+
+	while ((ch = fgetc(file)) != EOF)
+	{
+		printf("%c", ch);
+	}
+
+	fclose(file);
 }
 
 

@@ -22,10 +22,18 @@
     <ClCompile Include="01_文件基础.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="02_文件读写注意事项.c" />
+    <ClCompile Include="02_文件读写注意事项.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03_文件练习.c" />
+    <ClCompile Include="congfig.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="a.txt" />
+    <Text Include="config.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
