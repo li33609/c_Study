@@ -15,19 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01_静态链表和动态链表.c">
+    <ClCompile Include="01_函数指针.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="linklist.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="02_链表的基本使用.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="linklist.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
