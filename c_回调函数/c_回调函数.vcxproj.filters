@@ -18,5 +18,8 @@
     <ClCompile Include="01_案例1打印任意类型的数据.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="02_打印任意类型的数组.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -133,7 +133,7 @@ void delete_linklist(struct LinkNode* pHeader, int delete_num)
 	pCurrent = NULL;
 }
 
-// 情空列表
+// 清空列表
 void clear_linklist(struct LinkNode* pHeader)
 {
 	if (pHeader == NULL)

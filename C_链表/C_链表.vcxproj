@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="01_静态链表和动态链表.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="02_链表的基本使用.c" />
     <ClCompile Include="linklist.c" />
