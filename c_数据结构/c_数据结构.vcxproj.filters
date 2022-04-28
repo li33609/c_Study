@@ -14,15 +14,4 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="01_案例1打印任意类型的数据.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="02_打印任意类型的数组.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="03_回调函数对任意类型的数据排序.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
 </Project>

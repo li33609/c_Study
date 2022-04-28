@@ -32,3 +32,9 @@ void clear_linklist(struct LinkNode* pHeader);
 
 // 销毁链表
 void destory_linklist(struct LinkNode* pHeader);
+
+// 链表翻转
+void reverse_linkList(struct LinkNode* pHeader);
+
+// 统计链表个数
+int size_linkList(struct LinkNode* pHeader);

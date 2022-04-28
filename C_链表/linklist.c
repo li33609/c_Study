@@ -172,3 +172,50 @@ void destory_linklist(struct LinkNode* pHeader)
 	free(pHeader);
 	pHeader = NULL;
 }
+
+// 链表翻转
+void reverse_linkList(struct LinkNode* pHeader)
+{
+	if (pHeader == NULL)
+	{
+		return 0;
+	}
+
+	struct LinkNode* pPrev = NULL;
+	struct LinkNode* pCurrent = pHeader->next;
+	struct LinkNode* pNext = NULL;
+
+	while (pCurrent != NULL)
+	{
+		pNext = pCurrent->next;
+
+		// 更改指向
+		pCurrent->next = pPrev;
+
+		// 移动辅助指针
+		pPrev = pCurrent;
+		pCurrent = pNext;
+	}
+	// 更新头结点
+	pHeader->next = pPrev;
+}
+
+// 统计链表个数
+int size_linkList(struct LinkNode* pHeader)
+{
+	if (pHeader == NULL)
+	{
+		return 0;
+	}
+	int num = 0;
+
+	struct LinkNode* pCurrent = pHeader->next;
+
+	while (pCurrent != NULL)
+	{
+		pCurrent = pCurrent->next;
+		num++;
+	}
+
+	return num;
+}
