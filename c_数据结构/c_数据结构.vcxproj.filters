@@ -39,6 +39,12 @@
     <ClCompile Include="07_队列的链式存储.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="08_二叉树的递归.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="09_二叉树的常规编程.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dynamicArray.h">

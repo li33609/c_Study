@@ -40,6 +40,10 @@
     <ClCompile Include="07_队列的链式存储.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="08_二叉树的递归.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="09_二叉树的常规编程.c" />
     <ClCompile Include="dynamicArray.c" />
   </ItemGroup>
   <ItemGroup>
