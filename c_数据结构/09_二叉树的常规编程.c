@@ -11,6 +11,26 @@ struct BinaryNode
 	struct BinaryNode* RChild; // 右孩子
 };
 
+// 递归函数
+void recursion(struct BinaryNode* root)
+{
+	if (NULL == root)
+	{
+		return;
+	}
+
+	// 先序遍历
+
+	// 先根
+	printf("%c\n", root->ch);
+
+	// 再左
+	recursion(root->LChild);
+
+	// 再右
+	recursion(root->RChild);
+}
+
 // 统计叶子数量
 void calculateLeafNum(struct BinaryNode* root, int* p)
 {
@@ -49,6 +69,49 @@ int getTreeHeight(struct BinaryNode* root)
 	return height;
 }
 
+// 拷贝二叉树
+struct BinaryNode* copyTree(struct BinaryNode* root)
+{
+	if (NULL == root)
+	{
+		return NULL;
+	}
+
+	// 先拷贝左子树
+	struct BinaryNode* LChild = copyTree(root->LChild);
+
+	// 再拷贝右子树
+	struct BinaryNode* RChild = copyTree(root->RChild);
+
+	// 创建新节点
+	struct BinaryNode* newNode = malloc(sizeof(struct BinaryNode));
+
+	// 将拷贝的左右子树挂到新节点
+	newNode->LChild = LChild;
+	newNode->RChild = RChild;
+	newNode->ch = root->ch;
+
+	// 返回
+	return newNode;
+}
+
+void freeTree(struct BinaryNode* root)
+{
+	if (NULL == root)
+	{
+		return;
+	}
+
+	// 先释放左子树
+	freeTree(root->LChild);
+
+	// 再释放右子树
+	freeTree(root->RChild);
+
+	// 再释放根节点
+	freeTree(root);
+}
+
 void test01()
 {
 	struct BinaryNode nodeA = { 'A', NULL, NULL };
@@ -82,6 +145,15 @@ void test01()
 	// 统计高度
 	int height = getTreeHeight(&nodeA);
 	printf("树的高度：%d\n", height);
+
+	// 拷贝二叉树
+	struct BinaryNode* newTree = copyTree(&nodeA);
+
+	// 遍历
+	recursion(newTree);
+
+	// 释放二叉树
+	freeTree(newTree);
 }
 
 int main()

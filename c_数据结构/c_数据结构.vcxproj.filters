@@ -45,9 +45,21 @@
     <ClCompile Include="09_二叉树的常规编程.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="10_二叉树的非递归遍历.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="seqStack.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11_插入排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dynamicArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="seqStack.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

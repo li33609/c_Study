@@ -43,11 +43,19 @@
     <ClCompile Include="08_二叉树的递归.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="09_二叉树的常规编程.c" />
+    <ClCompile Include="09_二叉树的常规编程.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="10_二叉树的非递归遍历.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="11_插入排序.c" />
     <ClCompile Include="dynamicArray.c" />
+    <ClCompile Include="seqStack.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dynamicArray.h" />
+    <ClInclude Include="seqStack.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
